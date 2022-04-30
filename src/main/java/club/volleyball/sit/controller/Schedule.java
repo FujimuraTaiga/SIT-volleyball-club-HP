@@ -1,4 +1,4 @@
-package club.volleyball.sit;
+package club.volleyball.sit.controller;
 
 import jakarta.servlet.RequestDispatcher;
 import jakarta.servlet.ServletException;
@@ -14,10 +14,9 @@ public class Schedule extends HttpServlet {
     public void doGet(HttpServletRequest request, HttpServletResponse response) throws IOException, ServletException {
         response.setContentType("text/html");
 
-        RequestDispatcher dispatcher = request.getRequestDispatcher("pages/schedule.jsp");
+        RequestDispatcher dispatcher = request.getRequestDispatcher("pages/jsp/schedule.jsp");
         dispatcher.forward(request,response);
     }
 
-    public void destroy() {
-    }
+    public void destroy() {}
 }
