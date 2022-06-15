@@ -2,7 +2,7 @@
 <!DOCTYPE html>
 <html lang="ja">
 <head>
-    <link rel="stylesheet" href="pages/css/schedule.css">
+    <link rel="stylesheet" href="css/schedule.css">
     <title>予定表 | 芝浦工業大学バレーボール部</title>
 </head>
 <body>
